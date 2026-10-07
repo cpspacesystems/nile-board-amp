@@ -4,3 +4,4 @@
 /grebers
 *.png
 _restore_backup_*
+*.kicad_prl

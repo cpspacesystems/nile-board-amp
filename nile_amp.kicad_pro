@@ -542,7 +542,7 @@
       "netlist": "",
       "plot": "grebers/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "nile_amp.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
