@@ -2166,7 +2166,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 22.86 12.7 0)
+				(at 22.86 9.398 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2176,7 +2176,7 @@
 				)
 			)
 			(property "Value" "XINA851RGTR"
-				(at 22.86 10.16 0)
+				(at 22.86 6.858 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2255,7 +2255,7 @@
 			(symbol "XINA851RGTR_0_1"
 				(polyline
 					(pts
-						(xy 7.62 2.54) (xy 7.62 -50.8)
+						(xy 7.62 5.08) (xy 7.62 -53.34)
 					)
 					(stroke
 						(width 0.127)
@@ -2267,7 +2267,7 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 -50.8) (xy 38.1 -50.8)
+						(xy 7.62 -53.34) (xy 38.1 -53.34)
 					)
 					(stroke
 						(width 0.127)
@@ -2279,7 +2279,7 @@
 				)
 				(polyline
 					(pts
-						(xy 38.1 2.54) (xy 7.62 2.54)
+						(xy 38.1 5.08) (xy 7.62 5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -2291,7 +2291,7 @@
 				)
 				(polyline
 					(pts
-						(xy 38.1 -50.8) (xy 38.1 2.54)
+						(xy 38.1 -53.34) (xy 38.1 5.08)
 					)
 					(stroke
 						(width 0.127)
@@ -2464,7 +2464,7 @@
 					)
 				)
 				(pin output line
-					(at 45.72 0 180)
+					(at 45.72 2.54 180)
 					(length 7.62)
 					(name "OUT"
 						(effects
@@ -2482,7 +2482,7 @@
 					)
 				)
 				(pin output line
-					(at 45.72 -2.54 180)
+					(at 45.72 0 180)
 					(length 7.62)
 					(name "OUT+"
 						(effects
@@ -2589,7 +2589,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 0 -43.18 0)
 					(length 7.62)
 					(name "EPAD"
@@ -2638,7 +2638,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "26011102"
+			(property "Footprint" "Wago 2601 1102:26011102"
 				(at 21.59 -94.92 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2834,508 +2834,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Project_lcsc_parts:DS8572"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -3.81 5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "DS8572"
-				(at 0 5.715 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
-				(at 0 8.255 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C48533032.pdf"
-				(at 1.27 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Low power 150mA LDO 3.3V fixed output voltage, SOT-23-5"
-				(at 0.254 -10.922 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Linear Voltage Regulator IC Positive Fixed 3.3V Output 600mA SOT-23-5"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DS8572_0_1"
-				(rectangle
-					(start -5.08 4.445)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "DS8572_1_1"
-				(pin power_in line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 7.62 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Project_lcsc_parts:JTD6206-25"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -7.62 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "JTD6206-25"
-				(at -4.318 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at -0.508 -5.842 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C42443425.pdf"
-				(at -0.254 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "2.5V, 300mA Low Power LDO, SOT23"
-				(at -0.254 -12.192 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LDO ADJ"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MSOP*3x3mm*P0.65mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "JTD6206-25_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "JTD6206-25_1_1"
-				(pin power_in line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Project_lcsc_parts:MG78L05AT3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -7.62 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MG78L05AT3"
-				(at -4.318 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-				(at -0.508 -5.842 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C42411006.pdf"
-				(at -0.254 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "5V, 120mA, Low Noise, Micropower LDO Regulator, SOT23-3"
-				(at -0.254 -12.192 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LDO ADJ"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MSOP*3x3mm*P0.65mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MG78L05AT3_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MG78L05AT3_1_1"
-				(pin power_out line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 2.54 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4966,6 +4464,508 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "project_lcsc_parts:DS8572"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -3.81 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DS8572"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C48533032.pdf"
+				(at 1.27 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Linear Voltage Regulator IC Positive Fixed 3.3V Output 600mA SOT-23-5"
+				(at 0.254 -10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Linear Voltage Regulator IC Positive Fixed 3.3V Output 600mA SOT-23-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "DS8572_0_1"
+				(rectangle
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "DS8572_1_1"
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "project_lcsc_parts:JTD6206-25"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.62 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "JTD6206-25"
+				(at -4.318 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at -0.508 -5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C42443425.pdf"
+				(at -0.254 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "2.5V, 300mA Low Power LDO, SOT23"
+				(at -0.254 -12.192 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LDO ADJ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MSOP*3x3mm*P0.65mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "JTD6206-25_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "JTD6206-25_1_1"
+				(pin power_in line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "project_lcsc_parts:MG78L05AT3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -7.62 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MG78L05AT3"
+				(at -4.318 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+				(at -0.508 -5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C42411006.pdf"
+				(at -0.254 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "5V, 120mA, Low Noise, Micropower LDO Regulator, SOT23-3"
+				(at -0.254 -12.192 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LDO ADJ"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MSOP*3x3mm*P0.65mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MG78L05AT3_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MG78L05AT3_1_1"
+				(pin power_out line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "4.0.1"
 		(exclude_from_sim no)
@@ -4987,9 +4987,9 @@
 		)
 		(uuid "410d5cd0-f0d1-403b-8465-864ac9c89afb")
 	)
-	(text "NILE Load Cell AMP & ADC"
+	(text "NILE Load Cell / General AMP & ADC"
 		(exclude_from_sim no)
-		(at 200.66 189.992 0)
+		(at 204.978 189.738 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5007,7 +5007,7 @@
 		)
 		(uuid "8bb56adb-f2b4-483b-b031-c318241a03e6")
 	)
-	(text "2mv/V, 5V input Full bridge 5 wire Load Cell signal amplifier and ADC to 3.3V SPI board. Up to 2000 kSps. \nThe ADS1221 ADC should have it's internal amplifier disabled and gain set to 1. \nThe full range of ADC input is 0 to 5V with with a 2.5V differential signal.\nInput voltage is 12V. SPI digital voltage is 3.3. Load Cell Power OUT is 5V. \nThe board is 60mm H 56mm W. All mounting holes are M2.5. See PCB layout for hole locations."
+	(text "2mv/V, 5V input Full bridge 5 wire Load Cell signal amplifier and ADC to 3.3V SPI board. Up to 2000 kSps. \nThe ADS1220 ADC should have it's internal amplifier disabled and gain set to 1. \nThe full range of ADC input is 0 to 5V with with a 2.5V differential signal.\nInput voltage is 12V. SPI digital voltage is 3.3. Load Cell Power OUT is 5V. \nAll mounting holes are M2.5. See PCB layout for dimensions and hole locations."
 		(exclude_from_sim no)
 		(at 177.8 172.72 0)
 		(effects
@@ -5650,7 +5650,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 82.55) (xy 250.19 82.55)
+			(xy 260.35 80.01) (xy 250.19 80.01)
 		)
 		(stroke
 			(width 0)
@@ -5840,7 +5840,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 85.09) (xy 260.35 85.09)
+			(xy 250.19 82.55) (xy 260.35 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5930,16 +5930,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.186 29.21) (xy 99.06 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43e5f352-be57-4fef-8468-54d280270ce8")
-	)
-	(wire
-		(pts
 			(xy 151.13 33.02) (xy 151.13 40.64)
 		)
 		(stroke
@@ -5957,16 +5947,6 @@
 			(type default)
 		)
 		(uuid "452b95ac-5af7-4bb4-9f39-3428497b70eb")
-	)
-	(wire
-		(pts
-			(xy 91.186 26.67) (xy 99.06 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46b56b1c-5067-4ef0-9522-ffc059d924cd")
 	)
 	(wire
 		(pts
@@ -6080,16 +6060,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.186 24.13) (xy 99.06 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e4f129f-fa95-4dcb-a532-bfb0949392ae")
-	)
-	(wire
-		(pts
 			(xy 41.91 187.96) (xy 30.48 187.96)
 		)
 		(stroke
@@ -6160,6 +6130,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 24.13) (xy 100.33 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6494f8a6-b3a2-4d6b-a969-90df9809eb5b")
+	)
+	(wire
+		(pts
 			(xy 92.71 115.57) (xy 92.71 119.38)
 		)
 		(stroke
@@ -6187,6 +6167,16 @@
 			(type default)
 		)
 		(uuid "684a3485-2e4f-4ac9-bc5e-37b55da78ce2")
+	)
+	(wire
+		(pts
+			(xy 91.44 29.21) (xy 100.33 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6889acdb-21d9-4e7f-ac86-a794e0f15ca0")
 	)
 	(wire
 		(pts
@@ -6267,6 +6257,16 @@
 			(type default)
 		)
 		(uuid "75b4931f-6707-47d5-9bfd-3330e170baf8")
+	)
+	(wire
+		(pts
+			(xy 91.44 26.67) (xy 100.33 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76192c4a-e361-4164-842b-8e72e3369168")
 	)
 	(wire
 		(pts
@@ -6840,6 +6840,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 31.75) (xy 100.33 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c33da1f4-4295-4689-85e2-752b6f7884a9")
+	)
+	(wire
+		(pts
 			(xy 157.48 76.2) (xy 170.18 76.2)
 		)
 		(stroke
@@ -7230,16 +7240,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.186 31.75) (xy 99.06 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa6bd725-adbb-488a-b3f8-b017dba119ea")
-	)
-	(wire
-		(pts
 			(xy 76.2 187.96) (xy 86.36 187.96)
 		)
 		(stroke
@@ -7259,7 +7259,7 @@
 		(uuid "ffcf3004-7327-4b74-a631-c976213b8927")
 	)
 	(label "SCLK"
-		(at 99.06 31.75 180)
+		(at 100.33 31.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7269,7 +7269,7 @@
 		(uuid "01e2b376-aa52-4f37-8952-516617aaf8dd")
 	)
 	(label "MISO"
-		(at 99.06 26.67 180)
+		(at 100.33 26.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7289,7 +7289,7 @@
 		(uuid "263f2b7c-b3b1-42d1-9878-7f5b175d03da")
 	)
 	(label "CS"
-		(at 99.06 24.13 180)
+		(at 100.33 24.13 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7299,7 +7299,7 @@
 		(uuid "2b291ffb-98b8-4f7f-9407-1f0c80eba681")
 	)
 	(label "OUT-"
-		(at 260.35 82.55 180)
+		(at 260.35 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7329,7 +7329,7 @@
 		(uuid "313b1068-20f0-42a3-b6f5-5707b4bfb5fc")
 	)
 	(label "OUT+"
-		(at 260.35 85.09 180)
+		(at 260.35 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7379,7 +7379,7 @@
 		(uuid "4a3b523e-63f5-4f42-bad1-020c7d4fbf02")
 	)
 	(label "MOSI"
-		(at 99.06 29.21 180)
+		(at 100.33 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9914,7 +9914,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Project_lcsc_parts:JTD6206-25")
+		(lib_id "project_lcsc_parts:JTD6206-25")
 		(at 73.66 176.53 180)
 		(unit 1)
 		(body_style 1)
@@ -11368,7 +11368,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Project_lcsc_parts:MG78L05AT3")
+		(lib_id "project_lcsc_parts:MG78L05AT3")
 		(at 33.02 148.59 0)
 		(mirror y)
 		(unit 1)
@@ -12865,7 +12865,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/ads1220"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C48263.html"
 			(at 218.44 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -13107,7 +13107,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Project_lcsc_parts:DS8572")
+		(lib_id "project_lcsc_parts:DS8572")
 		(at 30.48 180.34 0)
 		(unit 1)
 		(body_style 1)
@@ -13150,7 +13150,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C48533032.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C48533032.pdf"
 			(at 31.75 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -13161,7 +13161,7 @@
 				)
 			)
 		)
-		(property "Description" "Low power 150mA LDO 3.3V fixed output voltage, SOT-23-5"
+		(property "Description" "Linear Voltage Regulator IC Positive Fixed 3.3V Output 600mA SOT-23-5"
 			(at 30.734 191.262 0)
 			(hide yes)
 			(show_name no)
@@ -15258,7 +15258,7 @@
 		(dnp no)
 		(uuid "d91b34e9-71ff-48ea-a2bb-26f14c404b81")
 		(property "Reference" "U1"
-			(at 227.584 75.438 0)
+			(at 227.584 72.898 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15268,7 +15268,7 @@
 			)
 		)
 		(property "Value" "XINA851RGTR"
-			(at 227.584 77.978 0)
+			(at 227.584 75.438 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15289,7 +15289,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina851.pdf"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C5371575.html"
 			(at 204.47 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -16705,7 +16705,7 @@
 	)
 	(sheet
 		(at 74.93 22.098)
-		(size 16.256 14.732)
+		(size 16.51 14.732)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -16772,7 +16772,7 @@
 			)
 		)
 		(pin "CS" input
-			(at 91.186 24.13 0)
+			(at 91.44 24.13 0)
 			(uuid "9b02f664-5519-47a1-88c9-9053bd337063")
 			(effects
 				(font
@@ -16792,7 +16792,7 @@
 			)
 		)
 		(pin "MISO" input
-			(at 91.186 26.67 0)
+			(at 91.44 26.67 0)
 			(uuid "988880fe-9e20-4483-ba94-ed4ac5e9ee2e")
 			(effects
 				(font
@@ -16802,7 +16802,7 @@
 			)
 		)
 		(pin "MOSI" input
-			(at 91.186 29.21 0)
+			(at 91.44 29.21 0)
 			(uuid "5087c6a7-e808-4f87-b289-aff50234d48f")
 			(effects
 				(font
@@ -16812,7 +16812,7 @@
 			)
 		)
 		(pin "SCLK" input
-			(at 91.186 31.75 0)
+			(at 91.44 31.75 0)
 			(uuid "f030cfb7-fa25-4ec9-9c19-f0415733a631")
 			(effects
 				(font

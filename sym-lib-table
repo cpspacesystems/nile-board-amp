@@ -1,5 +1,7 @@
 (sym_lib_table
 	(version 7)
 	(lib (name "Project_INA851") (type "KiCad") (uri "${KIPRJMOD}/libraries/INA851RGTR/2026-09-01_07-49-07.kicad_sym") (options "") (descr ""))
-	(lib (name "2601-1102") (type "KiCad") (uri "${KIPRJMOD}/libraries/LIB_2601-1102/KiCad/2601-1102.kicad_sym") (options "") (descr ""))
+	(lib (name "Project_Wago 1102") (type "KiCad") (uri "${KIPRJMOD}/libraries/LIB_2601-1102/KiCad/2601-1102.kicad_sym") (options "") (descr ""))
+	(lib (name "Project_ADS1220") (type "KiCad") (uri "${KIPRJMOD}/libraries/ADS1220IPW/2026-09-01_19-01-30.kicad_sym") (options "") (descr ""))
+	(lib (name "project_lcsc_parts") (type "KiCad") (uri "${KIPRJMOD}/libraries/lcsc_parts.kicad_sym") (options "") (descr ""))
 )

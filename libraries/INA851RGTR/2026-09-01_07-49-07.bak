@@ -12,7 +12,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 22.86 12.7 0)
+			(at 22.86 9.398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22,7 +22,7 @@
 			)
 		)
 		(property "Value" "XINA851RGTR"
-			(at 22.86 10.16 0)
+			(at 22.86 6.858 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -101,7 +101,7 @@
 		(symbol "XINA851RGTR_0_1"
 			(polyline
 				(pts
-					(xy 7.62 2.54) (xy 7.62 -50.8)
+					(xy 7.62 5.08) (xy 7.62 -53.34)
 				)
 				(stroke
 					(width 0.127)
@@ -113,7 +113,7 @@
 			)
 			(polyline
 				(pts
-					(xy 7.62 -50.8) (xy 38.1 -50.8)
+					(xy 7.62 -53.34) (xy 38.1 -53.34)
 				)
 				(stroke
 					(width 0.127)
@@ -125,7 +125,7 @@
 			)
 			(polyline
 				(pts
-					(xy 38.1 2.54) (xy 7.62 2.54)
+					(xy 38.1 5.08) (xy 7.62 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -137,7 +137,7 @@
 			)
 			(polyline
 				(pts
-					(xy 38.1 -50.8) (xy 38.1 2.54)
+					(xy 38.1 -53.34) (xy 38.1 5.08)
 				)
 				(stroke
 					(width 0.127)
@@ -310,7 +310,7 @@
 				)
 			)
 			(pin output line
-				(at 45.72 0 180)
+				(at 45.72 2.54 180)
 				(length 7.62)
 				(name "OUT"
 					(effects
@@ -328,7 +328,7 @@
 				)
 			)
 			(pin output line
-				(at 45.72 -2.54 180)
+				(at 45.72 0 180)
 				(length 7.62)
 				(name "OUT+"
 					(effects
